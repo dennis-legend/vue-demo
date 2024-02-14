@@ -8,7 +8,7 @@
         <go-back></go-back>
 
         <h2>电影详情页面</h2>
-        <h2>{{ $route.query.name }}</h2>
+        <p>{{ $route.query.name }}</p>
     </div>
 </template>
 <script>
@@ -22,5 +22,11 @@
  }
 </script>
 <style scoped>
-
+  div{
+    text-align: center;
+    margin: 10px;
+  }
+  div p{
+    margin-top: 20px;
+  }
 </style>
