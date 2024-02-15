@@ -1,6 +1,6 @@
 <template>
     <div class="index">
-        <div class="header">买买买商城</div>
+        <div class="header">购物商城</div>
         <!-- 二级路由出口 -->
         <router-view></router-view>
 
@@ -11,8 +11,6 @@
         <router-link to="/index/cart" active-class="selection">购物车</router-link>
         <router-link to="/index/mine" active-class="selection">用户中心</router-link>
         </div>
-      
-
     </div>
 </template>
 <script>
@@ -34,7 +32,6 @@
     justify-content: space-between;
     background: #ccc;
     color: blue;
-
    }
 
    .selection{
@@ -46,8 +43,5 @@
     background-color: hotpink;
     height: 1.5rem;
     color: #333;
-
-
-
    }
 </style>
